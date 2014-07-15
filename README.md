@@ -1,7 +1,5 @@
 [<img src="http://i.imgur.com/ihzCgEr.png">](http://concisecss.com/)
-
-# ConciseCss
-
+===========
 [![Gem Version](https://badge.fury.io/rb/concisecss.svg)](http://badge.fury.io/rb/concisecss)
 [![Gitter chat](https://badges.gitter.im/concisecss.png)](https://gitter.im/concisecss) 
 [![Like Concise on Facebook](http://i.imgur.com/4dy5UUK.png)](https://facebook.com/ConciseCSS) 
@@ -25,7 +23,11 @@ Or install it yourself as:
     $ gem install concisecss
 
 ## Documentation
- Check out concisecss documentation here: http://concisecss.com/documentation
+Check out concisecss documentation here: http://concisecss.com/documentation
+
+### Changelog
+
+You can keep up-to-date with the changes that we have made via our [releases page](https://github.com/ConciseCSS/concise.css-gem/releases).
 
 ## Usage
 
@@ -42,5 +44,8 @@ To add the css just require
    ```css
     *= require concise 
    ```
+   
+License
+-------------
 
-
+Code and documentation copyright 2014 Keenan Payne. Code released under the [MIT license](https://github.com/ConciseCSS/concise.css/blob/master/LICENSE). Documentation released under [Creative Commons](http://creativecommons.org/licenses/by-sa/4.0/).
