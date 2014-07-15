@@ -1,4 +1,4 @@
-# Concisecss
+# ConciseCss
 
 Concise is a lightweight front-end framework that provides a number of great features without the bloat. Concise is built based on Object-Oriented CSS principles and keeps semantics in mind to provide a small learning curve but high level of customization.
 
@@ -21,8 +21,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
-
+In application.js you need to require concisecss
+   ```js
+    //= require concisecss
+   ```
+  
 ## Contributing
 
 1. Fork it ( http://github.com/<my-github-username>/concisecss/fork )
