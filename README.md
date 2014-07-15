@@ -1,8 +1,7 @@
 # Concisecss
 
-TODO: Write a gem description
 
-## Installation
+## Installation Instructions
 
 Add this line to your application's Gemfile:
 
