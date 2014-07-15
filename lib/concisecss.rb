@@ -1,5 +1,7 @@
 require "concisecss/version"
 
 module Concisecss
-  # Your code goes here...
+  module Rails
+    require "concisecss/engine"
+  end
 end
