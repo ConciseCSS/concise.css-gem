@@ -17,7 +17,7 @@ Or install it yourself as:
     $ gem install concisecss
 
 ## Documentation
- Check out our documentation here: http://concisecss.com/documentation
+ Check out concisecss documentation here: http://concisecss.com/documentation
 
 ## Usage
 
