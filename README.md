@@ -21,11 +21,21 @@ Or install it yourself as:
 
 ## Usage
 
-In application.js you need to require concisecss
+Not every single project you are  working needs all the ConciseCss javascripts files , you will need to update application.js with the files you need
    ```js
-    //= require concisecss
+    //= require concisecss/navigation
+    //= require concisecss/non-responsive
+    //= require concisecss/naver
+    //= require concisecss/dropdown
+    //= require concisecss/close
    ```
-  
+To add the css just require 
+ 
+   ```css
+   *= require concise
+    //= 
+  ```
+
 ## Contributing
 
 1. Fork it ( http://github.com/<my-github-username>/concisecss/fork )
