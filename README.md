@@ -32,13 +32,12 @@ Not every single project you are  working needs all the ConciseCss javascripts f
 To add the css just require 
  
    ```css
-   *= require concise
-    //= 
-  ```
+    *= require concise 
+   ```
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/concisecss/fork )
+1. Fork it ( http://github.com/vezu/concisecss/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
