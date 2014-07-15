@@ -22,13 +22,6 @@ Or install it yourself as:
 
     $ gem install concisecss
 
-## Documentation
-Check out concisecss documentation here: http://concisecss.com/documentation
-
-### Changelog
-
-You can keep up-to-date with the changes that we have made via our [releases page](https://github.com/ConciseCSS/concise.css-gem/releases).
-
 ## Usage
 
 Not every single project you are  working needs all the ConciseCss javascripts files , you will need to update application.js with the files you need
@@ -44,6 +37,20 @@ To add the css just require
    ```css
     *= require concise 
    ```
+
+## Documentation
+What would a project be without gread documentation? Concise has documentation for everything that is included in the framework. If you see something that is missing or incorrect, don't hesitate to open up an issue on our GitHub repo.
+
+Check out our documentation here: [http://concisecss.com/documentation](http://concisecss.com/documentation)
+
+### Changelog
+
+You can keep up-to-date with the changes that we have made via our [releases page](https://github.com/ConciseCSS/concise.css-gem/releases).
+
+Versioning
+-------------
+   
+Concise is currently maintained under the [Semantic Versioning guidelines](http://semver.org/).
    
 License
 -------------
