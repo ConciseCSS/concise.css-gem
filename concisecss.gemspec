@@ -6,11 +6,11 @@ require 'concisecss/version'
 Gem::Specification.new do |spec|
   spec.name          = "concisecss"
   spec.version       = Concisecss::VERSION
-  spec.authors       = ["Vezu Sigidi"]
-  spec.email         = ["vezu@sigididesign.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.authors       = ["Benjamin Sigidi"]
+  spec.email         = ["benjamin@sigididesign.com"]
+  spec.summary       = "Concise is built from the ground-up for mobile devices. This means it will look great on all devices."
+  spec.description   = "Concise is built on a set of simple but important principles that aid in effective and manageable web design. By understanding these principles, Concise can be used to it's full potential and we can create a better paradigm for using HTML and CSS to build websites."
+  spec.homepage      = "http://concisecss.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
