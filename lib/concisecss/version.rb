@@ -1,0 +1,3 @@
+module Concisecss
+  VERSION = "0.0.1"
+end
