@@ -1,5 +1,6 @@
 # Concisecss
 
+Concise is a lightweight front-end framework that provides a number of great features without the bloat. Concise is built based on Object-Oriented CSS principles and keeps semantics in mind to provide a small learning curve but high level of customization.
 
 ## Installation Instructions
 
@@ -14,6 +15,9 @@ And then execute:
 Or install it yourself as:
 
     $ gem install concisecss
+
+## Documentation
+ Check out our documentation here: http://concisecss.com/documentation
 
 ## Usage
 
