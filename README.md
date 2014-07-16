@@ -12,7 +12,7 @@ Concise is a lightweight front-end framework that provides a number of great fea
 
 Add this line to your application's Gemfile:
 
-    gem 'concisecss'
+    gem 'concisecss', '~> 0.0.2'
 
 And then execute:
 
@@ -33,9 +33,12 @@ Not every single project you are  working needs all the ConciseCss javascripts f
     //= require concisecss/close
    ```
 To add the css just require 
- 
    ```css
     *= require concise 
+   ```
+If you intend to extend or override concise. You might want to create an override file, for example app/assets/stylesheets/custom.css.scss and then import concise
+   ```css
+    @import "concise";
    ```
 
 ## Documentation
