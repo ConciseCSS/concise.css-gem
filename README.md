@@ -1,5 +1,5 @@
-[<img src="http://i.imgur.com/4t1ClRx.png">](http://concisecss.com/)
-===========
+# [<img src="http://i.imgur.com/4t1ClRx.png">](http://concisecss.com/)
+
 [![Gitter chat](https://badges.gitter.im/concisecss.png)](https://gitter.im/concisecss) 
 [![Gem Version](https://badge.fury.io/rb/concisecss.svg)](http://badge.fury.io/rb/concisecss)
 
@@ -47,20 +47,17 @@ Check out our documentation here: [http://concisecss.com/documentation](http://c
 
 You can keep up-to-date with the changes that we have made via our [releases page](https://github.com/ConciseCSS/concise.css-gem/releases).
 
-Versioning
--------------
+## Versioning
    
 Concise is currently maintained under the [Semantic Versioning guidelines](http://semver.org/).
 
-Elsewhere
--------------
+## Elsewhere
 
 [![Like Concise on Facebook](http://i.imgur.com/4dy5UUK.png)](https://facebook.com/ConciseCSS)
 [![Follow Concise on Twitter](http://i.imgur.com/4AkKsMx.png)](https://twitter.com/ConciseCSS)
 [![Follow Concise on Google+](http://i.imgur.com/gdFNEMe.png)](https://plus.google.com/103423710089455112688)
 
-License
--------------
+## License
 
 Code released under the [MIT license](https://github.com/ConciseCSS/concise.css/blob/master/LICENSE). Documentation released under [Creative Commons](http://creativecommons.org/licenses/by-sa/4.0/).
 
