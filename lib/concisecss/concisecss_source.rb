@@ -22,14 +22,14 @@ class ConcisecssSource < Thor
     get "#{remote}/raw/#{tag}/scss/objects/_navigation.scss", "stylesheets/objects/_navigation.scss"
     get "#{remote}/raw/#{tag}/scss/objects/_progress.scss", "stylesheets/objects/_progress.scss"
     get "#{remote}/raw/#{tag}/scss/objects/_wells.scss", "stylesheets/objects/_wells.scss"
-    get "#{remote}/raw/#{tag}/scss/objects/_clearfix.scss", "stylesheets/objects/_clearfix.scss"
-    get "#{remote}/raw/#{tag}/scss/objects/_conditional.scss", "stylesheets/objects/_conditional.scss"
-    get "#{remote}/raw/#{tag}/scss/objects/_debug.scss", "stylesheets/objects/_debug.scss"
-    get "#{remote}/raw/#{tag}/scss/objects/_helper.scss", "stylesheets/objects/_helper.scss"
-    get "#{remote}/raw/#{tag}/scss/objects/_mixins.scss", "stylesheets/objects/_mixins.scss"
-    get "#{remote}/raw/#{tag}/scss/objects/_normalize.scss", "stylesheets/objects/_normalize.scss"
-    get "#{remote}/raw/#{tag}/scss/objects/_print.scss", "stylesheets/objects/_print.scss"
-    get "#{remote}/raw/#{tag}/scss/objects/_shared.scss", "stylesheets/objects/_shared.scss"
+    get "#{remote}/raw/#{tag}/scss/generic/_clearfix.scss", "stylesheets/generic/_clearfix.scss"
+    get "#{remote}/raw/#{tag}/scss/generic/_conditional.scss", "stylesheets/generic/_conditional.scss"
+    get "#{remote}/raw/#{tag}/scss/generic/_debug.scss", "stylesheets/generic/_debug.scss"
+    get "#{remote}/raw/#{tag}/scss/generic/_helper.scss", "stylesheets/generic/_helper.scss"
+    get "#{remote}/raw/#{tag}/scss/generic/_mixins.scss", "stylesheets/generic/_mixins.scss"
+    get "#{remote}/raw/#{tag}/scss/generic/_normalize.scss", "stylesheets/generic/_normalize.scss"
+    get "#{remote}/raw/#{tag}/scss/generic/_print.scss", "stylesheets/generic/_print.scss"
+    get "#{remote}/raw/#{tag}/scss/generic/_shared.scss", "stylesheets/generic/_shared.scss"
     get "#{remote}/raw/#{tag}/scss/base/_blockquotes.scss", "stylesheets/base/_blockquotes.scss"
     get "#{remote}/raw/#{tag}/scss/base/_container.scss", "stylesheets/base/_container.scss"
     get "#{remote}/raw/#{tag}/scss/base/_forms.scss", "stylesheets/base/_forms.scss"
@@ -56,6 +56,15 @@ class ConcisecssSource < Thor
     http = HTTPClient.new
     response = JSON.parse(http.get("https://api.github.com/repos/ConciseCSS/concise.css/tags").body)
     response.map{|tag| tag["name"]}.sort
+  end
+
+
+  def select msg, elements
+    elements.each_with_index do |element, index|
+      say(block_given? ? yield(element, index + 1) : ("#{index + 1}. #{element.to_s}"))
+    end
+    result = ask(msg).to_i
+    elements[result - 1]
   end
 
 
