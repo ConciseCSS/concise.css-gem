@@ -1,10 +1,7 @@
 [<img src="http://i.imgur.com/4t1ClRx.png">](http://concisecss.com/)
 ===========
-[![Gem Version](https://badge.fury.io/rb/concisecss.svg)](http://badge.fury.io/rb/concisecss)
 [![Gitter chat](https://badges.gitter.im/concisecss.png)](https://gitter.im/concisecss) 
-[![Like Concise on Facebook](http://i.imgur.com/4dy5UUK.png)](https://facebook.com/ConciseCSS) 
-[![Follow Concise on Twitter](http://i.imgur.com/4AkKsMx.png)](https://twitter.com/ConciseCSS) 
-[![Follow Concise on Google+](http://i.imgur.com/gdFNEMe.png)](https://plus.google.com/103423710089455112688)
+[![Gem Version](https://badge.fury.io/rb/concisecss.svg)](http://badge.fury.io/rb/concisecss)
 
 Concise is a lightweight front-end framework that provides a number of great features without the bloat. Concise is built based on Object-Oriented CSS principles and keeps semantics in mind to provide a small learning curve but high level of customization.
 
@@ -54,7 +51,14 @@ Versioning
 -------------
    
 Concise is currently maintained under the [Semantic Versioning guidelines](http://semver.org/).
-   
+
+Elsewhere
+-------------
+
+[![Like Concise on Facebook](http://i.imgur.com/4dy5UUK.png)](https://facebook.com/ConciseCSS)
+[![Follow Concise on Twitter](http://i.imgur.com/4AkKsMx.png)](https://twitter.com/ConciseCSS)
+[![Follow Concise on Google+](http://i.imgur.com/gdFNEMe.png)](https://plus.google.com/103423710089455112688)
+
 License
 -------------
 
