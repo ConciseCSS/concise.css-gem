@@ -3,7 +3,7 @@
 [![Gitter chat](https://badges.gitter.im/concisecss.png)](https://gitter.im/concisecss) 
 [![Gem Version](https://badge.fury.io/rb/concisecss.svg)](http://badge.fury.io/rb/concisecss)
 
-Concise is a lightweight front-end framework that provides a number of great features without the bloat. Concise is built based on Object-Oriented CSS principles and keeps semantics in mind to provide a small learning curve but high level of customization.
+Concise is a lightweight, front-end framework that provides a number of great features without the bloat. Concise is built based on Object-Oriented CSS principles and keeps semantics in mind to provide a small learning curve, but a high level of customization.
 
 ## Installation Instructions
 
@@ -39,7 +39,8 @@ If you intend to extend or override concise. You might want to create an overrid
    ```
 
 ## Documentation
-What would a project be without gread documentation? Concise has documentation for everything that is included in the framework. If you see something that is missing or incorrect, don't hesitate to open up an issue on our GitHub repo.
+
+What would a project be without great documentation? Concise has documentation for everything that is included in the framework. If you see something that is missing or incorrect, don't hesitate to open up an issue on our GitHub repo.
 
 Check out our documentation here: [http://concisecss.com/documentation](http://concisecss.com/documentation)
 
