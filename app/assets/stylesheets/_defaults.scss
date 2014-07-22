@@ -1,26 +1,13 @@
-//------------------------------------//
-//  $BORDER-BOX
-//------------------------------------//
-// Set to `false` if you do not wish to adopt 
-// global `box-sizing: border-box;`
-$global-border-box: true !default;
+// Thanks to inuitcss (https://github.com/csswizardry/inuit.css/blob/master/_defaults.scss) 
+// for the inspiration to create a default file for variables
 
 
 
 
-//------------------------------------//
-//  $DEBUG
-//------------------------------------//
-// Enabling debug mode allows for potential issues 
-// to be visually displayed in the browser. 
-$debug-mode: false !default;
+//------------------------------------
+//  BASE
+//------------------------------------
 
-
-
-
-//------------------------------------//
-//  $BASE
-//------------------------------------//
 // Base font sizes and colors
 $base-font-size:    16px !default;
 $base-line-height:  24px !default;
@@ -40,9 +27,10 @@ $line-height-ratio: $base-line-height / $base-font-size;
  
 
 
-//------------------------------------//
-//  $RESPONSIVE
-//------------------------------------//
+//------------------------------------
+//  RESPONSIVE
+//------------------------------------
+
 // Breakpoints
 $extra-small-start: 30em !default;
 $small-start:       48em !default;
@@ -53,9 +41,10 @@ $extra-large-start: 80em !default;
 
 
 
-//------------------------------------//
-//  $FONT-SIZES
-//------------------------------------//
+//------------------------------------
+//  FONT-SIZES
+//------------------------------------
+
 // Font-sizes (in pixels)
 $giga-size: 96px !default;
 $mega-size: 72px !default;
@@ -74,9 +63,10 @@ $micro-size: 10px !default;
 
 
 
-//------------------------------------//
-//  $COLORS
-//------------------------------------//
+//------------------------------------
+//  COLORS
+//------------------------------------
+
 // Background colors
 $bg-white:        #ffffff !default;
 $bg-black:        #222222 !default;
@@ -117,9 +107,10 @@ $object-ui-color: #ededed !default;
 
 
 
-//------------------------------------//
-//  $OBJECTS
-//------------------------------------//
+//------------------------------------
+//  OBJECTS
+//------------------------------------
+
 // Gutter size 
 $gutters: 2% !default;
 
@@ -140,12 +131,17 @@ $border-radius: 4px !default;
 
 
 
-//------------------------------------//
-//  $INCLUDE
-//------------------------------------//
+//------------------------------------
+//  INCLUDE
+//------------------------------------
+
 // Set whatever components you want included
 // in your project to `true` and any components
 // you do not wish to be included to `false`
+// 
+// Thanks to inuitcss (https://github.com/csswizardry/inuit.css/blob/master/_defaults.scss) 
+// for the idea to use feature switches in a framework. It's an absolutely brilliant idea
+// that makes customization so much easier.
 
 
 // Utility
@@ -155,33 +151,34 @@ $use-shared:      true !default;
 
 
 // Base
-$use-main:        true !default;
-$use-selection:   true !default;
-$use-container:   true !default;
-$use-typography:  true !default;
-$use-headings:    true !default;
-$use-blockquotes: true !default;
-$use-lists:       true !default;
-$use-tables:      true !default;
-$use-forms:       true !default;
-$use-grid:        true !default;
-  // Using push and pull classes for grid
-  // columns takes a lot of code. Set to
-  // `true` if needed.
-  $use-push:	  false !default;
-  $use-pull:	  false !default;
+$use-main:           true !default;
+$use-selection:      true !default;
+$use-container:      true !default;
+$use-typography:     true !default;
+$use-headings:       true !default;
+$use-blockquotes:    true !default;
+$use-lists:          true !default;
+$use-tables:         true !default;
+  $use-table-styles: true !default;
+$use-forms:          true !default;
+  $use-form-styles:  true !default;
+$use-grid:           true !default;
+  $use-push:	       false !default;
+  $use-pull:	       false !default;
 
   
-// Objects and abstractions
-$use-colors:      true !default;
-$use-buttons:     true !default;
-$use-groups:      true !default;
-$use-dropdowns:   true !default;
-$use-navigation:  true !default;
-$use-breadcrumbs: true !default;
-$use-wells:       true !default;
-$use-badges:      true !default;
-$use-progress:    true !default;
+// Objects
+$use-type-colors:             true !default;
+$use-bg-colors:               true !default;
+$use-buttons:                 true !default;
+$use-groups:                  true !default;
+$use-dropdowns:               true !default;
+$use-navigation:              true !default;
+  $use-responsive-navigation: true !default;
+$use-breadcrumbs:             true !default;
+$use-wells:                   true !default;
+$use-badges:                  true !default;
+$use-progress:                true !default;
 
 
 // Helpers

@@ -12,12 +12,9 @@
 
 
 
-//------------------------------------//
-//  $CONTENTS
-//------------------------------------//
-// 
-// CONTENTS
-// IMPORTS
+//------------------------------------
+//  CONTENTS
+//------------------------------------
 //
 // MIXINS
 // NORMALIZE
@@ -48,16 +45,15 @@
 // HELPER
 // CONDITIONAL
 // PRINT
-// DEBUG
 //
 //
  
  
  
 
-//------------------------------------//
-//  $IMPORTS  
-//------------------------------------// 
+//------------------------------------
+//  IMPORTS  
+//------------------------------------ 
 // Generic utility styles
 @import "defaults";
 @import "generic/mixins";
@@ -101,4 +97,3 @@
 @import "generic/helper";
 @import "generic/conditional";
 @import "generic/print";
-@import "generic/debug";

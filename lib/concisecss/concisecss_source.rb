@@ -24,7 +24,6 @@ class ConcisecssSource < Thor
     get "#{remote}/raw/#{tag}/scss/objects/_wells.scss", "stylesheets/objects/_wells.scss"
     get "#{remote}/raw/#{tag}/scss/generic/_clearfix.scss", "stylesheets/generic/_clearfix.scss"
     get "#{remote}/raw/#{tag}/scss/generic/_conditional.scss", "stylesheets/generic/_conditional.scss"
-    get "#{remote}/raw/#{tag}/scss/generic/_debug.scss", "stylesheets/generic/_debug.scss"
     get "#{remote}/raw/#{tag}/scss/generic/_helper.scss", "stylesheets/generic/_helper.scss"
     get "#{remote}/raw/#{tag}/scss/generic/_mixins.scss", "stylesheets/generic/_mixins.scss"
     get "#{remote}/raw/#{tag}/scss/generic/_normalize.scss", "stylesheets/generic/_normalize.scss"
@@ -40,15 +39,12 @@ class ConcisecssSource < Thor
     get "#{remote}/raw/#{tag}/scss/base/_selection.scss", "stylesheets/base/_selection.scss"
     get "#{remote}/raw/#{tag}/scss/base/_tables.scss", "stylesheets/base/_tables.scss"
     get "#{remote}/raw/#{tag}/scss/base/_type.scss", "stylesheets/base/_type.scss"
-
     get "#{remote}/raw/#{tag}/js/non-responsive.js", "javascripts/concisecss/non-responsive.js"
     get "#{remote}/raw/#{tag}/js/navigation.js", "javascripts/concisecss/navigation.js"
     get "#{remote}/raw/#{tag}/js/naver.js", "javascripts/concisecss/naver.js"
     get "#{remote}/raw/#{tag}/js/dropdown.js", "javascripts/concisecss/dropdown.js"
     get "#{remote}/raw/#{tag}/js/close.js", "javascripts/concisecss/close.js"
   end
-
-
 
   private
 
@@ -57,8 +53,6 @@ class ConcisecssSource < Thor
     response = JSON.parse(http.get("https://api.github.com/repos/ConciseCSS/concise.css/tags").body)
     response.map{|tag| tag["name"]}.sort
   end
-
-
   def select msg, elements
     elements.each_with_index do |element, index|
       say(block_given? ? yield(element, index + 1) : ("#{index + 1}. #{element.to_s}"))
@@ -67,6 +61,7 @@ class ConcisecssSource < Thor
     elements[result - 1]
   end
 
+  # Thanks to Rogeriolol. For task approach.
 
 
 end
