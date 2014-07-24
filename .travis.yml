@@ -6,4 +6,3 @@ rvm:
 branches:
   only:
     - master
-script: rake
