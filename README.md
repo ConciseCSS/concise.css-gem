@@ -61,5 +61,3 @@ Concise is currently maintained under the [Semantic Versioning guidelines](http:
 ## License
 
 Code released under the [MIT license](https://github.com/ConciseCSS/concise.css/blob/master/LICENSE). Documentation released under [Creative Commons](http://creativecommons.org/licenses/by-sa/4.0/).
-
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/4f404142bdcae0124dadfb2427083d1f "githalytics.com")](http://githalytics.com/ConciseCSS/concise.css-gem)
