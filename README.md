@@ -1,6 +1,7 @@
 # [<img src="http://i.imgur.com/4t1ClRx.png">](http://concisecss.com/)
 
-[![Gitter chat](https://badges.gitter.im/concisecss.png)](https://gitter.im/concisecss) 
+[![Gitter chat](https://badges.gitter.im/concisecss.png)](https://gitter.im/concisecss)
+[![Code Climate](https://codeclimate.com/github/ConciseCSS/concise.css-gem.png)](https://codeclimate.com/github/ConciseCSS/concise.css-gem)
 [![Gem Version](https://badge.fury.io/rb/concisecss.svg)](http://badge.fury.io/rb/concisecss)
 
 Concise is a lightweight, front-end framework that provides a number of great features without the bloat. Concise is built based on Object-Oriented CSS principles and keeps semantics in mind to provide a small learning curve, but a high level of customization.
