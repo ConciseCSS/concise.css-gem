@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-Not every single project you are  working needs all the ConciseCss javascripts files , you will need to update application.js with the files you need
+Not every single project you are  working needs all of the Concise JavaScript files. You can update your `application.js` with the files you need
    ```js
     //= require concisecss/navigation
     //= require concisecss/non-responsive
@@ -30,11 +30,11 @@ Not every single project you are  working needs all the ConciseCss javascripts f
     //= require concisecss/dropdown
     //= require concisecss/close
    ```
-To add the css just require 
+To add the CSS just require 
    ```css
     *= require concise 
    ```
-If you intend to extend or override concise. You might want to create an override file, for example app/assets/stylesheets/custom.css.scss and then import concise
+If you intend to extend or override Concise, you might want to create an override file. For example: `app/assets/stylesheets/custom.css.scss` and then import concise
    ```css
     @import "concise";
    ```
