@@ -34,7 +34,7 @@ To add the CSS just require
    ```css
     *= require concise 
    ```
-If you intend to extend or override Concise, you might want to create an override file. For example: `app/assets/stylesheets/custom.css.scss` and then import concise
+If you intend to extend or override Concise, you might want to create an override file. For example: `app/assets/stylesheets/custom.scss` and then import concise
    ```css
     @import "concise";
    ```
