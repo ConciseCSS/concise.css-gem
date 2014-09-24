@@ -10,7 +10,7 @@ Concise is a lightweight, front-end framework that provides a number of great fe
 
 Add this line to your application's Gemfile:
 
-    gem 'concisecss', '~> 0.0.4'
+    gem 'concisecss', '~> 0.0.5'
 
 And then execute:
 
