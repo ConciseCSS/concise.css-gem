@@ -28,7 +28,6 @@ Not every single project you are  working needs all of the Concise JavaScript fi
     //= require concisecss/non-responsive
     //= require concisecss/naver
     //= require concisecss/dropdown
-    //= require concisecss/close
    ```
 To add the CSS just require
    ```css
