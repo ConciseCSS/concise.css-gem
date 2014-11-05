@@ -4,13 +4,13 @@
 [![Code Climate](https://codeclimate.com/github/ConciseCSS/concise.css-gem.png)](https://codeclimate.com/github/ConciseCSS/concise.css-gem)
 [![Gem Version](https://badge.fury.io/rb/concisecss.svg)](http://badge.fury.io/rb/concisecss)
 
-Concise is a lightweight, front-end framework that provides a number of great features without the bloat. Concise is built based on Object-Oriented CSS principles and keeps semantics in mind to provide a small learning curve, but a high level of customization.
+Concise is a lightweight, front-end framework that provides a number of great features without the bloat. Concise is built based on Object-Oriented CSS principles and keeps semantics in mind to provide a small learning curve, and a high level of customization.
 
 ## Installation Instructions
 
 Add this line to your application's Gemfile:
 
-    gem 'concisecss', '~> 0.0.5'
+    gem 'concisecss', '~> 2.0.0'
 
 And then execute:
 
@@ -30,9 +30,9 @@ Not every single project you are  working needs all of the Concise JavaScript fi
     //= require concisecss/dropdown
     //= require concisecss/close
    ```
-To add the CSS just require 
+To add the CSS just require
    ```css
-    *= require concise 
+    *= require concise
    ```
 If you intend to extend or override Concise, you might want to create an override file. For example: `app/assets/stylesheets/custom.scss` and then import concise
    ```css
@@ -50,8 +50,12 @@ Check out our documentation here: [http://concisecss.com/documentation](http://c
 You can keep up-to-date with the changes that we have made via our [releases page](https://github.com/ConciseCSS/concise.css-gem/releases).
 
 ## Versioning
-   
+
 Concise is currently maintained under the [Semantic Versioning guidelines](http://semver.org/).
+
+## Acknowledgments
+
+There are acknowledgements spread throughout the source code if you look around, and you can also view a list of credits [here](http://concisecss.com/credits/).
 
 ## Elsewhere
 
