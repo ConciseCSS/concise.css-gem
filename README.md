@@ -1,6 +1,6 @@
 # [<img src="http://i.imgur.com/4t1ClRx.png">](http://concisecss.com/)
 
-[![Gitter chat](https://badges.gitter.im/concisecss.png)](https://gitter.im/concisecss)
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/ConciseCSS/concise.css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Code Climate](https://codeclimate.com/github/ConciseCSS/concise.css-gem.png)](https://codeclimate.com/github/ConciseCSS/concise.css-gem)
 [![Gem Version](https://badge.fury.io/rb/concisecss.svg)](http://badge.fury.io/rb/concisecss)
 
