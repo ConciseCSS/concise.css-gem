@@ -41,7 +41,7 @@ If you intend to extend or override Concise, you might want to create an overrid
 
 What would a project be without great documentation? Concise has documentation for everything that is included in the framework. If you see something that is missing or incorrect, don't hesitate to open up an issue on our GitHub repo.
 
-Check out our documentation here: [http://concisecss.com/documentation](http://concisecss.com/documentation)
+Check out our documentation here: [http://concisecss.com](http://concisecss.com)
 
 ### Changelog
 
@@ -50,10 +50,6 @@ You can keep up-to-date with the changes that we have made via our [releases pag
 ## Versioning
 
 Concise is currently maintained under the [Semantic Versioning guidelines](http://semver.org/).
-
-## Acknowledgments
-
-There are acknowledgements spread throughout the source code if you look around, and you can also view a list of credits [here](http://concisecss.com/credits/).
 
 ## Elsewhere
 
