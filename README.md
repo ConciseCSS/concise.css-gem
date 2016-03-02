@@ -3,6 +3,8 @@
 [![Code Climate](https://codeclimate.com/github/ConciseCSS/concise.css-gem.png)](https://codeclimate.com/github/ConciseCSS/concise.css-gem)
 [![Gem Version](https://badge.fury.io/rb/concisecss.svg)](http://badge.fury.io/rb/concisecss)
 
+# Important: This project is deprecated and there is no plans to support it in the future.
+
 Concise is a lightweight, front-end framework that provides a number of great features without the bloat. Concise is built based on Object-Oriented CSS principles and keeps semantics in mind to provide a small learning curve, and a high level of customization.
 
 ## Installation Instructions
